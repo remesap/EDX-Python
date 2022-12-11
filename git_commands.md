@@ -18,9 +18,9 @@ git diff --cached
 
 git branch experimental
 
-or you can use 
+# To switch to the new branch, use
 
-git reset HEAD <file>...
+git checkout experimental
 
 # Git status to see what is going on in the repository
 
@@ -34,6 +34,12 @@ git log
 
 git restore --staged <file>...
 
+or you can use 
+
+git reset HEAD <file>...
+
 # Adding all files to the staging area
 
 git add .
+
+## With this line I tell you this is a new version of the file
