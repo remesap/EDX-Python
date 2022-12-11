@@ -1,10 +1,11 @@
 # How to delete a file on Git
 
-git rm <file>
+git rm file_name
 git commit -m "Deleted the file from the git repository"
 git push
 
-Something that worked for me was to use the -f flag following the git add command. This will force the file to be added to the repository. Then you can use the git rm command to remove the file from the repositor:
+Something that worked for me was to use the -f flag following the git add command. 
+This will force the file to be added to the repository. Then you can use the git rm command to remove the file from the repositor:
 
 git rm -f git_commands.txt
 
@@ -24,7 +25,7 @@ git checkout experimental
 
 # How to delete a branch locally
 
-git branch -d <branch_name>
+git branch -d branch_name
 
 # Git status to see what is going on in the repository
 
@@ -36,11 +37,11 @@ git log
 
 # How to undo a git add command (unstage a file)
 
-git restore --staged <file>...
+git restore --staged file...
 
 or you can use 
 
-git reset HEAD <file>...
+git reset HEAD file_name...
 
 # Adding all files to the staging area
 
