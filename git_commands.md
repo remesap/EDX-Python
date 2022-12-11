@@ -22,6 +22,10 @@ git branch experimental
 
 git checkout experimental
 
+# How to delete a branch locally
+
+git branch -d <branch_name>
+
 # Git status to see what is going on in the repository
 
 git status
@@ -42,4 +46,3 @@ git reset HEAD <file>...
 
 git add .
 
-## With this line I tell you this is a new version of the file
